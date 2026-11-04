@@ -1,0 +1,42 @@
+[
+    {
+        "timestamp": "2026-11-04T23:53:05.166167",
+        "client_address": "127.0.0.1:61090",
+        "picked_numbers": [
+            2,
+            2,
+            2,
+            2,
+            2
+        ],
+        "bet": 22,
+        "drawn_numbers": [
+            11,
+            15,
+            19,
+            7,
+            6
+        ],
+        "winnings": 0
+    },
+    {
+        "timestamp": "2026-11-04T23:53:30.409679",
+        "client_address": "127.0.0.1:63878",
+        "picked_numbers": [
+            19,
+            13,
+            2,
+            5,
+            7
+        ],
+        "bet": 22,
+        "drawn_numbers": [
+            18,
+            10,
+            11,
+            1,
+            14
+        ],
+        "winnings": 0
+    }
+]

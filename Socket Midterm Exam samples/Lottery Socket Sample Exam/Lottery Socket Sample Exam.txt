@@ -1,0 +1,45 @@
+Instructions
+
+
+Copying anyone else's solution is not allowed, nor is discussing solutions through a separate channel, using chat applications, or using any AI-based system, etc. You must solve the tasks on your own! The tasks and solutions may not be published in any form (email, Facebook, GitHub, forums, etc.)!
+
+In case of obvious copying, everyone involved will receive a failing grade on the exam, regardless of who submitted the solution first! Apart from this, all other resources may be used (internet, documentation, lecture slides, notes, etc.).
+Every step and message should also be printed to the console, so that the program’s operation is visible!
+
+For each subtask, attach to your submission the sample files you created for running it, and take a screenshot showing how the program was started (e.g. command-line arguments) and the final result, demonstrating that the program works (fully or partially)!
+
+
+Lottery Sample
+
+Implement a lottery application, where the server generates 5 numbers between 1 and 20 (to have a chance at winning). These are the drawed numbers. The client sends their picked numbers and how much they betting. The server replies with the drawed numbers and how much the client wins: 1 hit 1x, 2 hit 2x, 3 hit 3x, etc.
+
+Task I.
+
+a) Use TCP
+a) Use UDP
+
+Task II.
+
+a) The format of the message must be bytes with ':' separator.
+a) The format of the message must be struct with at least two member.
+a) Put an MD5/CRC checksum beside the message.
+
+Task III.
+
+The server must handle multiple simultaneous connections (with select if TCP)
+
+Task IV.
+
+a) The client picks random numbers
+a) The client gets the numbers from the standard input
+a) The client gets the numbers from a json file
+a) The client gets the numbers from command line argument
+
+Task V.
+
+Implement a history server, which logs the drawed numbers, the clients' picks and winnings.
+It persists the received data to a json file (*append*). The protocol must be different than what is used in Task I.
+
+a) The history server must act as a proxy. The client sends their picked numbers to it, which then forwards it to the lottery server. The lottery server answer to the history server which logs it then forwards the result to the client.
+a) The history server is a separate component. After the client's request the lottery server sends every data to the history server for logging.
+a) The client sends the data to the history server after it got the results from the lottery server.

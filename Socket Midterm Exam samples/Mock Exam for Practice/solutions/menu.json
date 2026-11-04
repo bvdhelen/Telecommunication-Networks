@@ -1,0 +1,32 @@
+[
+  {
+    "item_id": "PIZZ",
+    "name": "Margherita Pizza",
+    "price": 1200,
+    "stock": 10
+  },
+  {
+    "item_id": "BURG",
+    "name": "Cheeseburger",
+    "price": 800,
+    "stock": 15
+  },
+  {
+    "item_id": "SALA",
+    "name": "Caesar Salad",
+    "price": 600,
+    "stock": 20
+  },
+  {
+    "item_id": "PAST",
+    "name": "Spaghetti Carbonara",
+    "price": 1000,
+    "stock": 12
+  },
+  {
+    "item_id": "SODA",
+    "name": "Soft Drink",
+    "price": 200,
+    "stock": 50
+  }
+]

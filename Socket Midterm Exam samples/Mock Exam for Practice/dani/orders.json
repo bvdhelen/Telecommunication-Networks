@@ -1,0 +1,16 @@
+[
+  {
+    "timestamp": "2025-12-07T20:23:39.334187",
+    "student_ip": "127.0.0.1",
+    "item_id": "PIZZ",
+    "quantity": 3,
+    "total_price": 3600
+  },
+  {
+    "timestamp": "2025-12-07T20:24:35.319260",
+    "student_ip": "127.0.0.1",
+    "item_id": "PIZZ",
+    "quantity": 7,
+    "total_price": 8400
+  }
+]

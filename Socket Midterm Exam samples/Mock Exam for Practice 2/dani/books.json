@@ -1,0 +1,27 @@
+[
+  {
+    "book_id": "BOOK0001",
+    "title": "Network Programming",
+    "copies": 3
+  },
+  {
+    "book_id": "BOOK0002",
+    "title": "Data Structures",
+    "copies": 5
+  },
+  {
+    "book_id": "BOOK0003",
+    "title": "Algorithms",
+    "copies": 2
+  },
+  {
+    "book_id": "BOOK0004",
+    "title": "Operating Systems",
+    "copies": 4
+  },
+  {
+    "book_id": "BOOK0005",
+    "title": "Databases",
+    "copies": 1
+  }
+]
