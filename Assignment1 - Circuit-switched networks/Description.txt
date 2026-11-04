@@ -1,0 +1,66 @@
+
+      Áramkör szimuláció
+
+
+Készíts programot, ami leszimulálja az erõforrások lefoglalását és
+felszabadítását a JSON fájlban megadott topológia, kapacitások
+és igények alapján!
+
+*Teszteléshez json file*: cs1.json <https://ggombos.web.elte.hu/
+halobeadando/1-aramkor/cs1.json>
+
+*Script paraméterezése*: python3 client.py cs.json
+
+*A program kimenete*:
+
+  *
+
+     esemény sorszám. < esemény név >: < node1 > <-> < node2 > st:< szimuálciós idõ > [- < sikeres/sikertelen >] 
+
+
+Pl.:
+
+1. igény foglalás: A<->C st:1 – sikeres
+2. igény foglalás: B<->C st:2 – sikeres
+3. igény felszabadítás: A<->C st:5
+4. igény foglalás: D<->C st:6 – sikeres
+5. igény foglalás: A<->C st:7 – sikertelen
+…
+
+*Leadás*: A program leadása a TMS rendszeren keresztül *.zip*
+formátumban, amiben egy *client.py* szerepeljen!
+
+
+*#####################################################################################################################*
+
+
+      Circuit simulation
+
+
+Write a program which simulates the allocation and deallocation of
+resources according to the topology, capacities and demands outlined in
+the given JSON file!
+
+*JSON file for testing*: cs1.json <https://ggombos.web.elte.hu/
+halobeadando/1-aramkor/cs1.json>
+
+*Parameters of the script*: python3 client.py cs.json
+
+*Structure of the output*:
+
+  *
+
+     event number. < event name >: < node1 > <-> < node2 > st:< simulation time > [- < successful/unsuccessful >] 
+
+
+Ex.:
+
+1. demand allocation: A<->C st:1 – successful
+2. demand allocation: B<->C st:2 – successful
+3. demand deallocation: A<->C st:5
+4. demand allocation: D<->C st:6 – successful
+5. demand allocation: A<->C st:7 – unsuccessful
+…
+
+*Submission*: Send it to the TMS in *.zip* file which should contain one
+and only one file called *client.py*!

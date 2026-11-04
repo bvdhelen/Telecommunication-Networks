@@ -1,0 +1,33 @@
+Task1
+
+Read the binary files received in the parameter and print the contents of the first record to the standard output! (the return value of the unpack)
+- Parameter1 structure: char, 9 length string, integer
+- Parameter2 structure: integer, float, bool
+- Parameter3 structure: bool, 9 length string, char
+- Parameter4 structure: integer, char, float
+
+Task2
+
+Write the following value to stdout (print) in binary format (the return value of the pack)! The length of the string is indicated by the number behind the text!
+Struct parameter to use: f, i, c, ?, Xs (where X is the length of the string, eg: 3s)
+- "elso"(19), 49, True
+- 52.5, False, 'X'
+- 40, "masodik"(17), 59.9
+- 'Z', 71, "harmadik"(20)
+
+Parameters of the script:
+
+    python3 client.py < file1 > < file2 > < fil3 > < fil4 >
+        pl: python3 client.py db1.bin db2.bin db3.bin db4.bin
+
+Example output:
+(b'F', b'123456789', 35)
+(35, 37.29999923706055, True)
+(True, b'123456789', b'F')
+(35, b'F', 37.29999923706055)
+b'elso\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00S\x00\x00\x00\x01'
+b'\x00\x00\xadB\x00X'
+b'J\x00\x00\x00masodik\x00\x00\x00\x00\x00\x00\x00\x00\x00\xcd\xcc\xbbB'
+b'Z\x00\x00\x00i\x00\x00\x00harmadik\x00\x00\x00\x00\x00\x00\x00\x00'
+
+Submission: Send it to the TMS in .zip file which should contain one and only one file called client.py!

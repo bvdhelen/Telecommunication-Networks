@@ -1,0 +1,15 @@
+
+
+
+def main():
+    with open('years.txt', 'r') as f:
+        for line in f:
+            y = int(line.strip())
+            if not y % 4 and (y % 100 or not y % 400):
+                print(f'{y} is a leap year')
+            else:
+                print(f'{y} is not a leap year')
+
+
+if __name__ == '__main__':
+    main()

@@ -1,0 +1,16 @@
+{
+  "homework": {
+    "max": 4,
+    "point": 2,
+    "min_percent": 0.5
+  },
+  "socket": {
+    "max": 100,
+    "point": 76,
+    "min_percent": 0.5
+  },
+  "kathara": {
+    "max": 10,
+    "min_percent": 0.5
+  }
+}

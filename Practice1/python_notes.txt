@@ -1,0 +1,106 @@
+>>> print("Hello World!")
+Hello World!
+>>> user_name = "Foo"
+>>> print("Hello " + user_name)
+Hello Foo
+>>> user_age = 26
+>>> print("you are " + str(user_age) + " years old")
+you are 26 years old
+>>> print(10+2)
+12
+>>> print(2*2)
+4
+>>> print(3**2)
+9
+>>> print(10%2)
+0
+>>> import math
+>>> print(math.floor(3.8))
+3
+>>> print(round(3.8))
+4
+>>> a = 42
+>>> b = 32
+>>> c = a + b
+>>> print(c)
+74
+>>> c = "string"
+>>> print(a+c)
+Traceback (most recent call last):
+  File "<python-input-19>", line 1, in <module>
+    print(a+c)
+          ~^~
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+>>> print("alma".upper())
+ALMA
+>>> print("LO" in "Hello".upper())
+True
+>>> print("Decimal Number: %d, Float: %f, String: %s" % (12,33.4,"almafa"))
+Decimal Number: 12, Float: 33.400000, String: almafa
+>>> x = 42
+>>> print(f"x == {x}")
+x == 42
+>>> players = [12, 31, 27, '48', 54]
+>>> print(players)
+[12, 31, 27, '48', 54]
+>>> print(players[0])
+12
+>>> print(players[-1])
+54
+>>> print(players + [22, 67])
+[12, 31, 27, '48', 54, 22, 67]
+>>> print(len(players))
+5
+>>> print(players + [22, 67])
+[12, 31, 27, '48', 54, 22, 67]
+>>> print(len(players))
+5
+>>> players = players + [22,67]
+>>> print(len(players))
+7
+>>> players.append(89)
+>>> print(len(players))
+8
+>>> print(players[2:])
+[27, '48', 54, 22, 67, 89]
+>>> print(players[2:4])
+[27, '48']
+>>> players = (12, 31, 27, '48', 54)
+>>> print(players[2:])
+(27, '48', 54)
+>>> players[2] = 'alma'
+Traceback (most recent call last):
+  File "<python-input-42>", line 1, in <module>
+    players[2] = 'alma'
+    ~~~~~~~^^^
+TypeError: 'tuple' object does not support item assignment
+>>> del players[2]
+Traceback (most recent call last):
+  File "<python-input-43>", line 1, in <module>
+    del players[2]
+        ~~~~~~~^^^
+TypeError: 'tuple' object doesn't support item deletion
+>>> mylist = [8,3,2,3,2,4,6,8,2]
+>>> myset = set(mylist)
+>>> print(mylist)
+[8, 3, 2, 3, 2, 4, 6, 8, 2]
+>>> print(myset)
+{2, 3, 4, 6, 8}
+>>> mysortedlist = sorted(mylist)
+>>> print(mysortedlist)
+[2, 2, 2, 3, 3, 4, 6, 8, 8]
+>>> team = {
+...   91: "Ayers, Robert",
+...   13: "Beckham Jr,",
+...   3:  "Brown, Josh",
+...   54: "Casillas, Jonathan",
+...   21: "Collins, Landon"
+... }
+>>> print(len(team))
+5
+>>> team[3] = 'Chihiro'
+>>> print(91 in team)
+True
+>>> print("alma" in team)
+False
+>>>

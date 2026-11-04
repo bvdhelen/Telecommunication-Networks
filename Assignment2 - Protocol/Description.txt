@@ -1,0 +1,16 @@
+Parameters of the script:
+
+    python3 client.py < file1 > < file2 > < fil3 > < fil4 >
+        pl: python3 client.py db1.bin db2.bin db3.bin db4.bin
+
+Example output:
+(b'F', b'123456789', 35)
+(35, 37.29999923706055, True)
+(True, b'123456789', b'F')
+(35, b'F', 37.29999923706055)
+b'elso\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00S\x00\x00\x00\x01'
+b'\x00\x00\xadB\x00X'
+b'J\x00\x00\x00masodik\x00\x00\x00\x00\x00\x00\x00\x00\x00\xcd\xcc\xbbB'
+b'Z\x00\x00\x00i\x00\x00\x00harmadik\x00\x00\x00\x00\x00\x00\x00\x00'
+
+Submission: Send it to the TMS in .zip file which should contain one and only one file called client.py!
